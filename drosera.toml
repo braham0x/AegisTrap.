@@ -1,0 +1,20 @@
+ethereum_rpc = "https://ethereum-hoodi-rpc.publicnode.com"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps]
+
+[traps.aegis_trap]
+path = "out/AegisTrap.sol/AegisTrap.json"
+response_contract = "0x1149923b9d7069757e8a6186c369b3f437617e1d"
+response_function = "respond(bytes)"
+cooldown_period_blocks = 30
+min_number_of_operators = 1
+max_number_of_operators = 3
+block_sample_size = 20
+private_trap = true
+whitelist = ["0xaEC2b7DAA49E21718587861C853578837Df74FD5"]
+address = "0x90978F683fd741e240153E37e56D278a92196e81"
+
+
